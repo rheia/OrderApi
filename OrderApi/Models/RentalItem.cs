@@ -14,6 +14,7 @@ namespace OrderApi.Models
 
         public Kind? Kind { get; set; } = null!;
 
+        /*This will be the discriminator column*/
         public int KindTypeId { get; set; }
 
         public int? RentalItemId { get; set; }
